@@ -1,0 +1,13 @@
+Hospitals receive health tracking data from countless sources every day.
+From professional equipment to your own personal smartwatch, everything tracks it but there is 0 consistency.
+When a hospital has data coming from all sorts of sources they can't afford to ignore 80% of it due to
+incompatibility.
+That problem is solved, as our EPR includes a normalising algorithm that takes data from various formats
+stored in any manner and returns a single standardised excel sheet with all the data sources combined.
+This not only enables us to consider a wide range of data sources for tracking such as hospital equipment,
+fitness trackers, and of course human data-entry.
+
+User can modify the list and order of fields to their liking in a simple interface so that only the data
+they require is in the final output
+The script can also be integrated into PowerApps to automatically run every day instead of someone
+manually running the script and uploading the updated standardised data.
