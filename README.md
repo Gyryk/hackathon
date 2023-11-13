@@ -2,7 +2,7 @@
 ## Solution for Microsoft x Carradale Futures Hackathon
 
 > To run this software: download all the files; install python, pandas, python-hl7, csv; go to the directory in the terminal and run `python3 scheduler.py` <br>
-> Use the [EPR Solution]()
+> To use the EPR import it into your PowerApps environment
 
 This is our final product for the hackathon, which won 2nd place. The project solves the core issue of having unstandardised data in all sorts of formats and needing to access all of it without losing any important records. By using this program you can generate one single file that can be stored and accessed anywhere.
 
