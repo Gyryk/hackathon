@@ -2,16 +2,16 @@ import merger
 from normaliser import Normaliser
 
 # declare and initialise sources
-input_excel_path = 'unpackers/input/input.xlsx'
-output_excel_path = 'unpackers/intermediate/xlsxNormal.csv'
+input_excel_path = 'source/input/input.xlsx'
+output_excel_path = 'source/intermediate/xlsxNormal.csv'
 
-input_csv_path = 'unpackers/input/input.csv'
-output_csv_path = 'unpackers/intermediate/csvNormal.csv'
+input_csv_path = 'source/input/input.csv'
+output_csv_path = 'source/intermediate/csvNormal.csv'
 
-input_json_path = 'unpackers/input/input.json'
-output_json_path = 'unpackers/intermediate/jsonNormal.csv'
+input_json_path = 'source/input/input.json'
+output_json_path = 'source/intermediate/jsonNormal.csv'
 
-output_path = 'unpackers/output/output.xlsx'
+output_path = 'source/output/output.xlsx'
 
 normaliser = Normaliser()
 

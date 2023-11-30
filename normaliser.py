@@ -14,7 +14,7 @@ class Normaliser:
 
         # Save the reordered DataFrame to a new CSV file
         # new_csv_path = 'csvNormal.csv'
-        # new_csv_path = 'unpackers/output/csvNormal.csv'
+        # new_csv_path = 'source/output/csvNormal.csv'
         df_reordered.to_csv(output_csv_path, index=False)
 
         print("New normalised CSV file form CSV file created successfully.")
@@ -31,7 +31,7 @@ class Normaliser:
 
         # Save the reordered DataFrame to a new Excel file
         # new_excel_path = 'xlsNormal.csv'
-        # new_excel_path = 'unpackers/output/xlsNormal.csv'
+        # new_excel_path = 'source/output/xlsNormal.csv'
         df_reordered.to_csv(output_excel_path, index=False)
 
         print("New normalised CSV file form XLSX file created successfully.")
@@ -103,7 +103,7 @@ class Normaliser:
 
         # Save the new HL7 content to a new file
         # new_hl7_path = 'hl7Normal.csv'
-        # new_hl7_path = 'unpackers/output/hl7Normal.csv'
+        # new_hl7_path = 'source/output/hl7Normal.csv'
         # with open(new_hl7_path, 'w') as new_hl7_file:
         #     new_hl7_file.write(new_hl7_content)
         #
